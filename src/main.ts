@@ -2,7 +2,7 @@ import type { Config } from '@duxweb/dux-vue-admin'
 import { createDux } from '@duxweb/dux-vue-admin'
 import { createApp } from 'vue'
 import App from './App.vue'
-import { route } from './router/route'
+import { route } from './router'
 import '@duxweb/dux-vue-admin/style.css'
 
 const app = createApp(App)
