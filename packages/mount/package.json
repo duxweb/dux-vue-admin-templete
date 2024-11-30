@@ -1,0 +1,26 @@
+{
+  "name": "dux-vue-mount",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "DuxWeb",
+  "license": "LGPL-3.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@duxweb/dux-vue-admin": "^0.0.7-beta"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.5.0",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-format": "^0.1.2",
+    "path": "^0.12.7",
+    "vite": "^5.4.3",
+    "vite-plugin-build": "^0.10.0",
+    "vue-tsc": "2.0.29"
+  }
+}

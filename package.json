@@ -1,26 +1,20 @@
 {
-  "name": "dux-vue-template",
-  "type": "module",
-  "version": "0.0.0",
+  "name": "monorepo",
+  "private": true,
   "author": "DuxWeb",
-  "license": "LGPL-3.0",
+  "license": "Apache-2.0",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev:legacy": "bun --filter dux-vue-legacy dev",
+    "build:legacy": "bun --filter dux-vue-legacy build",
+    "dev:mount": "bun --filter dux-vue-mount dev",
+    "build:mount": "bun --filter dux-vue-mount build"
   },
-  "dependencies": {
-    "@duxweb/dux-vue-admin": "link:@duxweb/dux-vue-admin"
+  "dependencies": {},
+  "engines": {
+    "node": ">=21.0.0"
   },
-  "devDependencies": {
-    "@antfu/eslint-config": "^3.5.0",
-    "@vitejs/plugin-vue": "^5.1.3",
-    "@vitejs/plugin-vue-jsx": "^4.0.1",
-    "eslint": "^9.9.0",
-    "eslint-plugin-format": "^0.1.2",
-    "path": "^0.12.7",
-    "vite": "^5.4.3",
-    "vite-plugin-build": "^0.10.0",
-    "vue-tsc": "2.0.29"
-  }
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {}
 }
