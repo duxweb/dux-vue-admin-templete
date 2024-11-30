@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@duxweb/dux-vue-admin": "^0.0.7-beta"
+    "@duxweb/dux-vue-admin": "^0.0.8-beta"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.5.0",
